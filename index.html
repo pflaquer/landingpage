@@ -68,6 +68,7 @@ body {
   transition: all .2s linear;
 }
 .landing-page .content .text-cont .btn-discover {
+  border-radius: 5px;
   min-width: 160px;
   margin-right: 5px;
   color: #FFF;
@@ -137,23 +138,9 @@ body {
   }
 }
 
-.logo {
-  opacity: 1.0;
-  width: 125px;
-  height: 100px;
-  filter: drop-shadow(5px 3px 2px grey);
+.icon {
+  filter: drop-shadow(5px 3px 2px);
   border-radius: 10px;
-}
-
-.download {
-  width: 250px;
-  height: 200px;
-  border-radius: 10px;
-  filter: drop-shadow(5px 3px 3px black)
-}
-
-body {
-background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
 }
 
 </style>
@@ -162,23 +149,28 @@ background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
   
   
 <body>
+
 <section class="landing-page">
   <div class="container">
     <div class="content">
       <div class="text-cont">
         <h1 class="header">
-          <span class="first-clr">Discover</span> new live <span class="first-clr">Performances</span> in <span class="first-clr">NYC</span>
-          <br>
-          <img src="https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/61/72/98/61729802-4c9f-4c99-e775-ae7a252275d3/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/230x0w.webp" class="logo">
+          
+          <p class="description">
+		     <center> <img src="https://is2-ssl.mzstatic.com/image/thumb/Purple112/v4/61/72/98/61729802-4c9f-4c99-e775-ae7a252275d3/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/230x0w.webp" width="20%" height="20%" class="icon"></img></p></center>
+          
+          <span class="first-clr">Discover </span> live<span class="first-clr"> performances</span> in <span class="first-clr">NYC</span>
         </h1>
-          <br>
-          <img src="https://blog.smashbomb.com/wp-content/uploads/2018/06/Screen-Shot-2018-06-18-at-14.25.32.png" class="download"></img>
+        
+          <img src="https://www.freepnglogos.com/uploads/app-store-logo-png/apple-app-store-travel-awards-globestamp-7.png" width="50% height="50%"">
         </p>
-    <br>
-       
+        <button class="btn btn-discover">Download Now</button>
+        <button class="btn btn-play">
+          <i class="fas fa-play"></i>
+        </button>
       </div>
       <div class="img-cont">
-        <video autoplay muted><source src="https://www.shutterstock.com/shutterstock/videos/22312507/preview/stock-footage-new-york-usa-september-young-hispanic-woman-juggling-with-pins-in-greenwich-park.webm" type="video/webm"</video>
+        <img class="img" src="https://www.freeiconspng.com/thumbs/iphone-x-pictures/apple-iphone-x-pictures-5.png">
       </div>
     </div>
   </div>
